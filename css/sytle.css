@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700&family=Oswald&family=Poppins:wght@400;500;600;700&family=Roboto&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;  
+}
+body{
+  font-family: 'Poppins';  
+}
+.header{
+  background: url(../img/wing-airplane-with-city-background\ 1.png) no-repeat;
+background-size: cover;
+height: 800px;
+padding-top: 50px;
+}
+.header-content{
+  max-width: 1140px; 
+  width: 100%; 
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.header-content{
+  display: flex;
+  align-items: center;  
+  justify-content: space-between;
+}
+.header-list{
+  display: flex;  
+  gap: 17px;
+  align-items: center;
+}
+.header-link:hover{
+ background: red; 
+ color: white;  
+}
+.header-link{
+ font-weight: 500;
+ font-size: 14px;
+ color: #181818 ; 
+ border: 2px solid aqua; 
+ padding: 5px 5px; 
+ border-radius: 14px;
+ 
+}
+.btn-right{
+  font-weight: 500;
+font-size: 14px;
+color: #181818 ; 
+}
+.btn-left{
+  font-weight: 500;
+  font-size: 14px;
+  color: white ;  
+  background: #656293;
+  border-radius: 5px;; 
+  padding: 5px 23px;
+  margin-left: 20px;
+}
+.container{
+  max-width: 1140px; 
+  width: 100%; 
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px; 
+
+}
+.img-cold{
+  display: flex;
+  justify-content: space-between;
+
+}
+.btn-bin{
+  margin-top: 190px;
+}
+.img-air{
+padding-top: 83px;
+}
+.img-spase{
+ font-weight: 400;
+ font-size: 66px;
+ color: #151515; 
+ margin-bottom: 50px;
+}
+.btn-reser{
+  font-weight: 700;
+  font-size: 66px;
+  color: #656293;
+}
+.btn-now{
+ font-weight: 600;
+ font-size: 16px;
+ color: #151515; 
+}
+/* header-finished */
+/* main-starts */
+.main{
+  max-width: 1140px; 
+  width: 100%; 
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;  
+}
+.main-content{
+width: 1140px;
+  height: 266px;
+background: #FFFFFF;
+box-shadow: 0px 30px 84px rgba(19, 10, 46, 0.08), 0px 8px 32px rgba(19, 10, 46, 0.07), 0px 3px 14px rgba(19, 10, 46, 0.03), 0px 1px 3px rgba(19, 10, 46, 0.13);
+border-radius: 12px;
+margin-top: -130px;
+flex-wrap: wrap;
+}
+.btn-icon{
+  display: flex;
+  gap: 35px;
+padding: 29px 34px;
+}
+.btn-round{
+  font-weight: 500;
+  font-size: 15px;
+  color: #939090  ;
+}
+.btn-from{
+ width: 300px;
+ height: 117px; 
+border: 1px solid #AAAAAA;
+box-sizing: border-box;
+border-radius: 10px;
+padding: 19px 20px;
+}
+.btn-round-m{
+  font-weight: 600;
+  font-size: 24px;
+  color: #151515;
+}
+.img-icon{
+  display: flex;
+  align-items: center;
+  margin-left: 340px;
+  margin-top: -70px;
+}
+.btn-person{
+  font-weight: 600;
+  font-size: 14px;
+  color: #151515;
+}
+.main-icon{
+  display: flex;
+ padding:3px 29px;
+gap: 40px;
+}
+.btn-los{
+ width: 381px;
+ height: 117px;
+ border: 1px solid #AAAAAA;
+box-sizing: border-box;
+border-radius: 10px; 
+padding: 16px 20px ;
+display: flex;
+gap: 80px;
+}
+.btn-next{
+  display: flex;
+  gap: 40px;
+}
+.btn-prev{
+  font-weight: 600;
+  font-size: 15px;
+  color: #15151599;
+}
+.bit-oct{
+  font-weight: 600;
+  font-size: 24px;
+  color: #151515;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.btn-add{
+  padding: 16px 29px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #151515;
+}
+.a-book{
+font-weight: 500;
+font-size: 18px;
+color: white;
+gap: 30px;
+background: #656293;
+border-radius: 10px;
+padding: 28px 50px;
+}
+.btn-leisure{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.s-for{
+  padding-left: 40px;
+}
+.b-jet{
+  margin-top: -20px;
+  margin-bottom: 70px;
+}
+.btn-purposess{
+  font-weight: 700;
+  font-size: 36px;
+  color: #000000  ;
+}
+.text-charter{
+  display: flex;
+gap: 40px;
+  align-items: center;
+  margin-top: 130px;
+}
+.text-jet{
+  font-weight: 600;
+  font-size: 24px;
+  color: #000000;
+}
+.text-point{
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(21, 21, 21, 0.6);
+  margin-top: 14px;
+}
+.secto{
+  position: absolute;
+  width: 400px;
+  height: 523px;
+  left: 190px;
+  top: 1128px;
+  z-index: -1;
+  background: #E5F4F6;
+  border-radius: 0px 50px 50px 0px;
+}
+.text-cherter{
+  display: flex;
+gap: 40px;
+align-items: center;
+margin-top: 180px;
+
+}
+.text-lux{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 66px;
+  margin-bottom: 69px;
+}
+.text-cap{
+  font-weight: 600;
+  font-size: 24px;
+  color: #000000;
+}
+.text-will{
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(21, 21, 21, 0.6);
+  margin-top: 14px; 
+}
+.will-title{
+  position: absolute;
+width: 400px;
+height: 523px;
+left: 1240px;
+top: 1701px;
+background: #E5F4F6;
+border-radius: 50px 0px 0px 50px;
+z-index: -1;
+}
+
+.text-spec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 36px;
+  color: #000000  ;
+  margin-top: 147px;
+  margin-bottom: 68px;
+}
+.img-comfort{
+width: 370px;
+height: 268px;
+background: #FFFFFF;
+box-shadow: 0px 30px 84px rgba(19, 10, 46, 0.08), 0px 8px 32px rgba(19, 10, 46, 0.07), 0px 3px 14px rgba(19, 10, 46, 0.03), 0px 1px 3px rgba(19, 10, 46, 0.13);
+border-radius: 12px;
+text-align: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.btn-long{
+  margin-top: 13px;
+  margin-bottom: 11px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #151515  ;
+}
+.lorem-text{
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(21, 21, 21, 0.6);
+}
+.img-com{
+  width: 370px;
+  height: 268px;
+  background: #FFFFFF;
+  box-shadow: 0px 30px 84px rgba(19, 10, 46, 0.08), 0px 8px 32px rgba(19, 10, 46, 0.07), 0px 3px 14px rgba(19, 10, 46, 0.03), 0px 1px 3px rgba(19, 10, 46, 0.13);
+  border-radius: 12px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+margin-top: 30px; 
+}
+.text-reader{
+ display: flex;
+ justify-content: space-between; 
+}
+.img-plane{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.img-piaggio{
+background: #FFFFFF;
+box-shadow: 0px 30px 84px rgba(19, 10, 46, 0.08), 0px 8px 32px rgba(19, 10, 46, 0.07), 0px 3px 14px rgba(19, 10, 46, 0.03), 0px 1px 3px rgba(19, 10, 46, 0.13);
+border-radius: 12px;
+width: 255px;
+height: 251px;
+
+}
+.img-bus{
+  padding: 10px 11px;
+  border-radius: 8px;
+}
+.p-avanti{
+align-items: center;
+display: flex;
+justify-content: center;
+}
+.img-css-text{
+  display: flex;
+  gap: 30px;
+  background-image: url(../img/Group\ \(5\).png);
+
+}
+
+
+
+
